@@ -5,7 +5,7 @@ import (
 	"os"
 )
 
-func inputFromFile(path string) ([]string, error) {
+func inputFromFile01(path string) ([]string, error) {
 	f, err := os.Open(path)
 	defer f.Close()
 	if err != nil {

@@ -7,7 +7,7 @@ import (
 )
 
 func run01() {
-	input, err := inputFromFile("input/01.txt")
+	input, err := inputFromFile01("input/01.txt")
 	if err != nil {
 		fmt.Println(err)
 		os.Exit(1)

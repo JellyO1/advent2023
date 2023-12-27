@@ -8,6 +8,8 @@ func main() {
 	flag.Parse()
 
 	switch *advent {
+	case 2:
+		run02()
 	default:
 		switch *part {
 		case 2:
