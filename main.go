@@ -10,6 +10,14 @@ func main() {
 	switch *advent {
 	case 2:
 		run02()
+	case 3:
+		switch *part {
+		case 2:
+			run03Part2()
+		default:
+			run03()
+		}
+
 	default:
 		switch *part {
 		case 2:
