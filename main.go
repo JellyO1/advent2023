@@ -31,6 +31,13 @@ func main() {
 		default:
 			run05()
 		}
+	case 6:
+		switch *part {
+		case 2:
+			run06Part2()
+		default:
+			run06()
+		}
 
 	default:
 		switch *part {
