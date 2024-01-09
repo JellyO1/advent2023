@@ -1,6 +1,10 @@
 package main
 
-import "flag"
+import (
+	"advent2023/day7"
+	"flag"
+	"fmt"
+)
 
 func main() {
 	advent := flag.Uint("advent", 1, "The advent of code number to run")
@@ -37,6 +41,11 @@ func main() {
 			run06Part2()
 		default:
 			run06()
+		}
+	case 7:
+		switch *part {
+		default:
+			fmt.Print(day7.Run("input/07.txt"))
 		}
 
 	default:
