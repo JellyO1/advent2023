@@ -2,6 +2,7 @@ package main
 
 import (
 	"advent2023/day7"
+	"advent2023/day7_p2"
 	"flag"
 	"fmt"
 )
@@ -44,6 +45,8 @@ func main() {
 		}
 	case 7:
 		switch *part {
+		case 2:
+			fmt.Print(day7_p2.Run("input/07.txt"))
 		default:
 			fmt.Print(day7.Run("input/07.txt"))
 		}
